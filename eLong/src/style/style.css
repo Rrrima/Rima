@@ -1,0 +1,77 @@
+#app {
+  font-family: 'PingFang SC','Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 50px;
+}
+#banner {
+  width:100%;
+}
+/**** main content ***/
+#guidePage{
+  padding:3vw;
+  padding-top:0;
+  display: -webkit-block;
+  display: block;
+
+}
+#singleMo{
+  width:90%;
+  padding-left:10%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 13vh;
+  padding-bottom:2px;
+   border-bottom: solid 1px #dddddd;
+
+}
+#titleBlock{
+  width:20%;
+  display: -webkit-block;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  margin-right:10vw;
+}
+#titleBlock img {
+  width:9.5vw;
+  padding-bottom: 1vh;
+}
+
+#titleBlock p {
+  position:absolute;
+  left:-8px;
+}
+
+#contentBlock{
+  padding-top:1.6vh;
+  display: inline-block;
+  line-height: 5.4vh;
+}
+
+#contentBlock li:before {
+  content:"·";
+  color:red;
+}
+
+#moreButton{
+  position:fixed;
+  z-index: 100;
+  right:0;
+  width:36vw;
+  bottom:16vh;
+}
+
+#footer{
+  color: grey;
+  text-align: center;
+  position:relative;
+  bottom:-1vh;
+}
+
+
+
